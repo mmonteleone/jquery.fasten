@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery.fasten Example</title>
+    <style type="text/css" media="screen">
+    div, h2, h3 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        }
+    .fixme {
+        background-color: yellow;
+        width: 200px;
+        height: 50px;
+        }
+    #wrapper {
+        width: 730px;
+        margin-left: auto;
+        margin-right: auto;
+        }
+    #left {
+        float: left;
+        width: 200px;        
+        margin-right: 10px;
+        }
+    #right {
+        float: left;
+        width: 200px;
+        margin-right: 10px;
+        }
+    #main {
+        float: left;
+        width: 300px;
+        margin-right: 10px;
+        }
+    </style>
+    <script src="../lib/jquery-1.4.1.min.js" type="text/javascript" charset="utf-8"></script>  
+    <script src="../jquery.fasten.js" type="text/javascript" charset="utf-8"></script>  
+    <script type="text/javascript" charset="utf-8">
+    $(function(){
+        $('div.fixme').fasten();
+    });
+    </script>
+</head>
+<body>
+
+<div id="wrapper">
+    
+<div id="header">
+    <h1 id="site_heading_here">jQuery.fasten Example</h1>
+</div>
+
+<div id="left">
+    <h3>Sidebar!</h3>
+    <p>Non fastened sidebar stuff</p>
+    <p>Non fastened sidebar stuff</p>
+    <div class="fixme">This is Fastened!</div>    
+</div>
+
+<div id="main">
+    <h2>Main Content</h2>  
+    <p><strong>Try scrolling this window past its fold.</strong></p>  
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed felis at libero imperdiet faucibus quis eget quam. Nulla ut ipsum enim. Phasellus lectus arcu, auctor nec luctus quis, semper id lectus. Cras malesuada eleifend augue, et rhoncus orci posuere quis. In neque enim, tristique eget elementum eu, suscipit et massa. In hac habitasse platea dictumst. Suspendisse fringilla mollis erat ac tristique. Nunc ac tortor et enim auctor posuere. Nullam varius laoreet placerat. Sed scelerisque justo porta mi suscipit a rhoncus nisl aliquam. Vestibulum sit amet magna in purus ullamcorper tempus a vel mi. Curabitur eu lorem id nisi tincidunt egestas vel eget tortor. Morbi sollicitudin sodales dignissim. Aliquam pharetra suscipit euismod. Vestibulum nec tortor lectus, scelerisque condimentum ante.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed felis at libero imperdiet faucibus quis eget quam. Nulla ut ipsum enim. Phasellus lectus arcu, auctor nec luctus quis, semper id lectus. Cras malesuada eleifend augue, et rhoncus orci posuere quis. In neque enim, tristique eget elementum eu, suscipit et massa. In hac habitasse platea dictumst. Suspendisse fringilla mollis erat ac tristique. Nunc ac tortor et enim auctor posuere. Nullam varius laoreet placerat. Sed scelerisque justo porta mi suscipit a rhoncus nisl aliquam. Vestibulum sit amet magna in purus ullamcorper tempus a vel mi. Curabitur eu lorem id nisi tincidunt egestas vel eget tortor. Morbi sollicitudin sodales dignissim. Aliquam pharetra suscipit euismod. Vestibulum nec tortor lectus, scelerisque condimentum ante.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed felis at libero imperdiet faucibus quis eget quam. Nulla ut ipsum enim. Phasellus lectus arcu, auctor nec luctus quis, semper id lectus. Cras malesuada eleifend augue, et rhoncus orci posuere quis. In neque enim, tristique eget elementum eu, suscipit et massa. In hac habitasse platea dictumst. Suspendisse fringilla mollis erat ac tristique. Nunc ac tortor et enim auctor posuere. Nullam varius laoreet placerat. Sed scelerisque justo porta mi suscipit a rhoncus nisl aliquam. Vestibulum sit amet magna in purus ullamcorper tempus a vel mi. Curabitur eu lorem id nisi tincidunt egestas vel eget tortor. Morbi sollicitudin sodales dignissim. Aliquam pharetra suscipit euismod. Vestibulum nec tortor lectus, scelerisque condimentum ante.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed felis at libero imperdiet faucibus quis eget quam. Nulla ut ipsum enim. Phasellus lectus arcu, auctor nec luctus quis, semper id lectus. Cras malesuada eleifend augue, et rhoncus orci posuere quis. In neque enim, tristique eget elementum eu, suscipit et massa. In hac habitasse platea dictumst. Suspendisse fringilla mollis erat ac tristique. Nunc ac tortor et enim auctor posuere. Nullam varius laoreet placerat. Sed scelerisque justo porta mi suscipit a rhoncus nisl aliquam. Vestibulum sit amet magna in purus ullamcorper tempus a vel mi. Curabitur eu lorem id nisi tincidunt egestas vel eget tortor. Morbi sollicitudin sodales dignissim. Aliquam pharetra suscipit euismod. Vestibulum nec tortor lectus, scelerisque condimentum ante.</p>    
+</div>
+
+<div id="right">
+    <h3>Sidebar 2!</h3>
+    <p>Non fastened sidebar stuff</p>
+    <p>Non fastened sidebar stuff</p>
+    <p>Non fastened sidebar stuff</p>
+    <p>Non fastened sidebar stuff</p>
+    <p>Non fastened sidebar stuff</p>
+    <p>Non fastened sidebar stuff</p>
+    <p>Non fastened sidebar stuff</p>
+    <div class="fixme">This is fastened too!</div>    
+</div>
+
+</div>
+
+</body>
+</html>
