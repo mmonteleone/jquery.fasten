@@ -23,7 +23,7 @@ jQuery.fasten requires:
 
 You can download the [zipped release][8] containing a minified build with examples and documentation or the development master with unit tests by cloning `git://github.com/mmonteleone/jquery.fasten.git`.
 
-jQuery.fasten requires [jquery][3] 1.3.2 or greater, and [jQuery.fasten][9] 0.9 and can be installed thusly 
+jQuery.fasten requires [jquery][3] 1.3.2 or greater
 
     <script type="text/javascript" src="jquery-1.4.1.min.js"></script>
     <script type="text/javascript" src="jquery.fasten.min.js"></script>
@@ -45,11 +45,9 @@ Can also pass options
     // default would have been 10
     $('div.fasten_me').fasten({padding: 30});
     
-is an alias for `$('textarea').fasten(options);`  
-
 ### Options
 
-* **padding**: The distance in pixels from the viewport boundary at which to apply a fixed position to the element.  The element will never stop scrolling with the page once it gets within this distance from the dge
+* **padding**: The distance in pixels from the viewport boundary at which to apply a fixed position to the element.  The element will stop scrolling with the page once it gets within this distance from the edge
   * *default*: 10
 
 ### Events
