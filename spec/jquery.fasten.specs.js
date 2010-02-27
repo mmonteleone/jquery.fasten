@@ -75,7 +75,7 @@ QUnit.specify("jQuery.fasten", function() {
                                     cssCalled = true;
                                     return this;
                                 };
-                                $(window).scrollTop(viewportHeight * 2).scroll();                                
+                                $(window).scrollTop(viewportHeight * 3).scroll();                                
                                 assert(cssCalled).isFalse("yes, this currently fails in ie.  TODO: make this pass in IE");
                             } finally {
                                 $.fn.css = originalCss;                                
@@ -151,7 +151,7 @@ QUnit.specify("jQuery.fasten", function() {
      * Assumes they have each been loaded and set to notConflict(true)
      * aliased as jq14, jq13, etc.
      */
-    each(["1.3.2","1.4.1"], function(version) {
+    each(["1.3.2","1.4.1","1.4.2"], function(version) {
         describe("in jQ " + version, function(){
             $ = jQuery = window['jq_' + version.replace(/\./g,'_')];
             specification();                    

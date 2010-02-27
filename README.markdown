@@ -25,7 +25,7 @@ You can download the [zipped release][8] containing a minified build with exampl
 
 jQuery.fasten requires [jquery][3] 1.3.2 or greater
 
-    <script type="text/javascript" src="jquery-1.4.1.min.js"></script>
+    <script type="text/javascript" src="jquery-1.4.2.min.js"></script>
     <script type="text/javascript" src="jquery.fasten.min.js"></script>
 
 jQuery.fasten includes a test suite, and has been verified to work against Firefox 3.5, Safari 4, Internet Explorer 7,8, Chrome.  Please feel free to test its suite against other browsers.
